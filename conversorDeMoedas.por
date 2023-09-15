@@ -18,15 +18,15 @@ programa {
 
     escolha(moeda){
       caso 1:
-        valor = valor / 0.21
+        valor = valor * 0.21
         escreva(valor)
         pare
       caso 2:
-        valor = valor / 0.19
+        valor = valor * 0.19
         escreva(valor)
         pare
       caso 3:
-        valor = valor / 30.36
+        valor = valor * 30.36
         escreva(valor)
         pare
     }
