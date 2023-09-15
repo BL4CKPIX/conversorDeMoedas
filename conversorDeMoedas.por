@@ -19,15 +19,15 @@ programa {
     escolha(moeda){
       caso 1:
         valor = valor * 0.21
-        escreva(valor)
+        escreva("\nValor em Dolar",valor)
         pare
       caso 2:
         valor = valor * 0.19
-        escreva(valor)
+        escreva("\nValor em Euro",valor)
         pare
       caso 3:
         valor = valor * 30.36
-        escreva(valor)
+        escreva("\nValor em Iene",valor)
         pare
     }
     
